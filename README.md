@@ -84,7 +84,17 @@ The source checkout includes ten new V2 regression tests covering background
 completion, multiple descendants, attachment, delayed caches, deletion,
 permission precedence, and selection isolation. All **65 integration-asset tests**
 passed; nine new tests failed against the original implementation before fixing it.
-The full Rust/Windows suite was not run; no Rust or protocol code was changed.
+
+The patched Herdr source checkout also passed its complete native Linux
+`just test` recipe using Rust **1.96.1**, Zig **0.16.0**, and cargo-nextest **0.9.146**:
+
+- **3,903 Rust tests passed; 14 skipped** by the normal test configuration.
+- **150 Python maintenance tests** and **6 architecture tests** passed.
+- **5 release-workflow tests**, **65 integration-asset tests**, and
+  **7 documentation-contract tests** passed.
+
+No Rust or protocol code was changed. Windows cross-compilation and lint checks
+were not run.
 
 A native test used the real Herdr/OpenCode binaries, a real OpenCode background
 subagent, and a deterministic loopback test provider. The Agents panel showed a
