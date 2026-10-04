@@ -1,0 +1,12 @@
+{
+  "upstream_repository": "https://github.com/herdrdev/herdr",
+  "source_commit": "5da0a01e1eedda054db0c81dd3a780000c40d9f0",
+  "source_url": "https://github.com/herdrdev/herdr/blob/5da0a01e1eedda054db0c81dd3a780000c40d9f0/src/integration/assets/opencode/herdr-tui-session.js",
+  "license": "Apache-2.0",
+  "tested_herdr_version": "0.9.3",
+  "upstream_integration_version": 13,
+  "tested_opencode_version": "2.0.21",
+  "stock_sha256": "50659d47db3cf4e7de3028e56f2666a656efaaddc24711b72f5b6baa9f99c5d3",
+  "patched_sha256": "6c3cb52e5c354d583a2a5670ffb13f7503db760f1ccf4154b2c8752f9e2dd5a8",
+  "upstream_issue": "https://github.com/herdrdev/herdr/issues/4511"
+}
